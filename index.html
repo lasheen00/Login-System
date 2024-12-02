@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Smart Login</title>
+
+    
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <section class="vh-100 d-flex justify-content-center align-items-center">
+      <div class="container d-flex flex-column align-items-center py-5">
+        <div class="login-body text-center">
+          <div class="title mb-5">
+            <h1>Smart Login System</h1>
+          </div>
+          <div class="input my-5">
+            <input
+              type="email"
+              id="loginEmail"
+              class="form-control mb-3"
+              placeholder="Enter your email"
+            />
+            <p id="msgRemail" class="alert alert-danger p-1 small w-75 mx-auto d-none">
+              Email is not registered</p>
+            <p id="msgNemail" class="alert alert-danger p-1 small w-75 mx-auto d-none">
+              Email is required</p>
+
+            <input
+              type="password"
+              id="loginPassword"
+              class="form-control"
+              placeholder="Enter your password"
+            />
+            <p
+              id="msgRpassword"
+              class="alert alert-danger p-1 small w-75 mx-auto d-none"
+            >
+              Password is incorrect
+            </p>
+          </div>
+          <div class="submit">
+            <button id="loginBtn" class="btn my-btn">Login</button>
+          </div>
+          <div class="signup-btn d-flex justify-content-evenly">
+            <p>Don’t have an account?</p>
+            <a href="pages/signup.html">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

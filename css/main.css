@@ -1,0 +1,117 @@
+body {
+    background-image: linear-gradient(to top, #2D4D5E, #D28889);
+  }
+  
+  section .container .login-body,
+  section .container .signup-body {
+    padding: 50px;
+    border: 1px solid #2D4D5E;
+    box-shadow: #2D4D5E 0 0 5px 3px;
+    box-sizing: border-box;
+    width: 40%;
+  }
+  section .container .login-body .title,
+  section .container .signup-body .title {
+    color: #123323;
+  }
+  
+  section .container .login-body .input input,
+  section .container .signup-body .input input {
+    background-color: #2D4D5E;
+    color: #e3eed4;
+    border: 1px solid #D28889;
+    padding: 10px 15px;
+    margin-block: 25px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  section .container .login-body .input input:hover,
+  section .container .signup-body .input input:hover  {
+    background-color: #D28889;
+  }
+  section .container .login-body .input input::placeholder,
+  section .container .signup-body .input input::placeholder {
+    color: #b1b1b1;
+  }
+  section .container .login-body .input input:focus,
+  section .container .signup-body .input input:focus {
+    box-shadow: none;
+  }
+  
+  section .container .login-body .submit,
+  section .container .signup-body .submit{
+    width: 100%;
+    border: 1px solid #D28889;
+    border-radius: 5px;
+    text-align: center;
+    margin-block: 30px;
+    background-color: #2D4D5E;
+    transition: background-color 0.3s ease-in-out;
+  }
+  section .container .login-body .submit:hover,
+  section .container .signup-body .submit:hover,
+  .my-nav .my-btn:hover {
+    background-color: #D28889;
+  }
+  
+  section .container .login-body .submit .my-btn,
+  section .container .signup-body .submit .my-btn,
+  .my-nav .my-btn {
+    color: #e3eed4;
+    padding-block: 10px;
+  }
+  
+  section .container .login-body .signup-btn p,
+  section .container .signup-body .login-btn p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #D28889;
+  }
+  section .container .login-body .signup-btn a,
+  section .container .signup-body .login-btn a {
+    text-decoration: none;
+    color: #D28889;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  section .container .login-body .signup-btn a:hover,
+  section .container .signup-body .login-btn a:hover {
+    color: #2D4D5E ;
+  }
+  
+  .my-nav{
+    box-shadow: #2D4D5E 0 0 45px 2px ;
+    box-sizing: border-box;
+  }
+  .home .container .username{
+    box-shadow: #2D4D5E 0 0 45px 2px ;
+    box-sizing: border-box;
+    width: 60%;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .my-nav a {
+    text-decoration: none;
+    color: #2D4D5E;
+    font-size: 30px;
+    font-weight: 700;
+    transition: color 0.3s ease-in-out;
+  }
+  .my-nav a:hover{
+    color: #D28889;
+  }
+  .my-nav .container{
+    width: 60%;
+  }
+  .my-nav .my-btn {
+    width: 100%;
+    border: 1px solid #D28889;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #2D4D5E;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .home .username h1{
+    font-size: 60px;
+    font-weight: 700;
+  }
